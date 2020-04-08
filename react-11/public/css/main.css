@@ -59,3 +59,20 @@ body {
 .header-profile p {
 	margin-left: 15px;
 }
+
+.header-content {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.header-content h1 {
+	color: #fff;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 78px;
+}
+
+.header-content ul {
+	
+}
