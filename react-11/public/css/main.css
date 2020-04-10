@@ -145,6 +145,7 @@ body {
 	font-size: 13px;
 	font-weight: 700;
 	color: #e4bb23;
+	cursor: pointer;
 }
 
 .body-nav ul li:hover {
@@ -195,6 +196,18 @@ body {
 	visibility: hidden;
 	width: 100%;
 	z-index: 1;
+}
+
+.movie-info h3 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #e4bb23;
+}
+
+.movie-info i {
+	font-size: 50px;
+	color: #fff;
+	padding: 15px;
 }
 
 .card-header:hover .movie-info{
