@@ -30,6 +30,22 @@ body {
 	height: 600px;
 	width: 100%;
 	color: #fff;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.main-header:after {
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.6) 0%,
+		rgba(0, 212, 255, 0) 75%
+	);
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
 .header-nav {
@@ -38,6 +54,8 @@ body {
 	font-weight: 700;
 	font-size: 13;
 	padding: 20px;
+	z-index: 2;
+	cursor: pointer;
 }
 
 
@@ -72,6 +90,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
+	z-index: 2;
 }
 
 .header-content h1 {
@@ -91,6 +110,7 @@ body {
 .header-content ul li {
 	padding-right: 15px;
 	font-weight: 600;
+	cursor: pointer;
 }
 
 .header-content ul li:hover {
