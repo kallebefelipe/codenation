@@ -3,10 +3,16 @@
 
 * {
 	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
 	font-family: 'Montserrat', sans-serif;
+}
+
+.yellow {
+	color: #e4bb23;
 }
 
 .container {
@@ -21,12 +27,13 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 600px;
+	width: 100%;
+	color: #fff;
 }
 
 .header-nav {
 	display: flex;
 	justify-content: space-between;
-	color: #fff;
 	font-weight: 700;
 	font-size: 13;
 	padding: 20px;
@@ -39,7 +46,7 @@ body {
 }
 
 .header-menu li {
-	margin-left: 50px;
+	padding: 15px 20px;
 }
 
 .header-menu li:hover {
@@ -57,7 +64,7 @@ body {
 }
 
 .header-profile p {
-	margin-left: 15px;
+	padding: 15px;
 }
 
 .header-content {
@@ -74,5 +81,50 @@ body {
 }
 
 .header-content ul {
-	
+	display: flex;
+	color: #fff;
+	font-size: 13px;
+	list-style: none;
+}
+
+.header-content ul li {
+	padding-right: 15px;
+	font-weight: 600;
+}
+
+.header-content ul li:hover {
+	color : #e4bb23;
+}
+
+.header-content button {
+	width: 195px;
+	height: 45px;
+	border-radius: 50px;
+	background-color: #e4bb23;
+	border: none;
+	margin: 30px 0px;
+	color: #000;
+}
+
+.body-nav{
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+}
+
+.body-nav ul{
+	display: flex;
+	list-style: none;
+}
+
+.body-nav ul li {
+	margin-left: 30px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #e4bb23;
+}
+
+.body-nav ul li:hover {
+	padding-bottom: 25px;
+	border-bottom: 5px solid #e4bb23;
 }
