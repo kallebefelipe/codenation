@@ -128,9 +128,10 @@ body {
 }
 
 .body-nav{
+	margin-top: 20px;
 	display: flex;
-	justify-content: center;
-	padding: 25px;
+	border-bottom: 1px solid #ccc;
+	align-items: center;
 }
 
 .body-nav ul{
@@ -140,14 +141,14 @@ body {
 
 .body-nav ul li {
 	margin-left: 30px;
+	padding-bottom: 30px;
 	font-size: 13px;
 	font-weight: 700;
 	color: #e4bb23;
 }
 
 .body-nav ul li:hover {
-	padding-bottom: 25px;
-	border-bottom: 5px solid #e4bb23;
+	box-shadow: inset 0 -1px 0 #e4bb23;
 }
 
 .cards ul {
