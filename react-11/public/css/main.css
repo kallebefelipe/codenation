@@ -134,6 +134,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
+	margin-left: 15px;
 }
 
 .cards ul li {
@@ -152,6 +153,39 @@ body {
 	border-radius: 5px 5px 0px 0px;
 }
 
-.footer {
+footer {
+	background-color: #fff;
+	padding: 30px;
+	margin-top: 50px;
+}
+
+footer div{
+	max-width: 1020px;
+	margin: 0 auto;
+	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer ul {
+	display: flex;
+	list-style: none;
+}
+
+footer ul li {
+	font-size: 25px;
+	color: #ccc;
+	margin: 15px;
+}
+
+.fa-twitter:hover {
+	color: #55acee;
+}
+
+.fa-facebook-official:hover {
+	color:#3b5998;
+}
+
+.fa-instagram:hover {
+	color: #eda099;
 }
