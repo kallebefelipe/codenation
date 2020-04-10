@@ -9,6 +9,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	background-color: #f2f2f2;
 }
 
 .yellow {
@@ -127,4 +128,30 @@ body {
 .body-nav ul li:hover {
 	padding-bottom: 25px;
 	border-bottom: 5px solid #e4bb23;
+}
+
+.cards ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.cards ul li {
+	padding: 30px 15px 0px 0px;
+}
+
+.card {
+	width: 230px;
+	border-radius: 0px 0px 5px 5px;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+.card-header img{
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.footer {
+	flex-direction: row;
 }
